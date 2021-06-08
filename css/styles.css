@@ -1,0 +1,306 @@
+
+/* ----------sass var for caursel part in testimonials--------------- */
+
+/*--------------- css work------------ */
+#title{
+  /* background-color: #d7fbe8; */
+}
+.navbar{
+  background-color: #1fab89;
+  padding: 5px 8% 0;
+}
+.navbar_img{
+  width: 45px;
+  margin: 0 15px 5px 0;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff !important;
+}
+.navbar-brand:hover{
+  color: #9df3c4 !important;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff !important;
+}
+.nav-link:hover{
+  color: #9df3c4 !important;
+}
+.nav-item{
+  margin: 0 3% 5px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 1.4;
+  color: #1fab89;
+}
+.under_h1_span{
+  color: #1fab89;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+.under_h1_span_2{
+  color: #62d2a2;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+.container-fluid{
+  padding: 3% 8%;
+}
+.row{
+  padding: 3% 0 0 0;
+}
+.btn_1{
+  color: #1fab89;
+  margin: 5% 3% 5% 0;
+  font-family: 'Ubuntu', sans-serif;
+  /* font-weight: bold; */
+}
+.title_img{
+  width: 70%;
+}
+.title_div{
+  text-align: center;
+}
+/* -------------------------flip img code -------------------------*/
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #f1f1f1; */
+  /*perspective: 1000px; Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  /* background-color: #d7fbe8; */
+  color: black;
+}
+/* Style the back side */
+.flip-box-back {
+  position: absolute;
+  padding: 60px 5% 0 5%;
+  top: 0;
+  /* background-color: #d7fbe8; */
+  color: #62d2a2;
+  transform: rotateX(180deg);
+}
+.back_img_h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #1fab89;
+}
+.back_image_p{
+  font-family: 'Itim', cursive;
+  font-size: 25px;
+}
+
+
+#features{
+  background-color: #1fab89;
+}
+.f_box{
+  text-align: center;
+  padding: 5%;
+}
+.f_b_h3{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.f_b_p{
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+  color: #9df3c4;
+}
+.f_icon{
+  color: #ffe268;
+  margin: 0 0 1.5rem 0;
+}
+.f_icon:hover{
+  color: #fff;
+}
+
+
+
+#testimonials{
+  /* background-color: #d7fbe8; */
+  text-align: center;
+  padding: 2% 0 2% 0;
+}
+.t_h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #62d2a2;
+  margin: 0 0 3% 0;
+}
+.t_img{
+  width: 30%;
+  border-radius: 50%;
+  /* margin: 0 0 5% 0; */
+}
+.t_u{
+  color: #1fab89;
+  text-decoration: underline;
+}
+.carousel{
+
+}
+.carousel-inner{
+  padding: 3% 15% 2% 15%;
+}
+
+
+
+#press{
+  background-color: #1fab89;
+  text-align: center;
+  padding: 4%;
+}
+.p_h2{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.p_img{
+  width: 80%;
+  margin: 10%;
+}
+
+
+#pricing{
+  padding: 4% 8% 0 8%;
+  text-align: center;
+}
+.h2_pricing{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #1fab89;
+}
+.p_underh2_pricing{
+  color: #1fab89;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  word-spacing: 0.25rem;
+}
+.cards{
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: #1fab89;
+  /* margin-bottom: 5%; */
+}
+.col_pricing{
+  padding: 0 2% 4%;
+}
+.card-header{
+  background-color: #1fab89;
+}
+.h3_pricing{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800 ;
+}
+.span_pricing{
+  font-size: 50px;
+}
+.span_pricing_2{
+  font-size: 10px;
+}
+.card-body{
+  background-color: #d7fbe8;
+  color: #1fab89;
+}
+.btn_pricing{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #1fab89;
+  color: #fff;
+}
+.btn_pricing:hover{
+  background-color: #d7fbe8;
+  color: #1fab89;
+  border: 1px solid #1fab89;
+  border-radius: 4px;
+}
+
+
+
+#cta{
+  background-color: #1fab89;
+  text-align: center;
+  padding: 8%;
+}
+.h3_cta{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.p_ctn{
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+.btn_cta{
+  background-color: #1fab89;
+  color: #fff;
+  margin: 2% 3% 0 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn_cta:hover{
+  color: #1fab89;
+}
+
+
+
+#footer{
+  padding: 4%;
+  text-align: center;
+  color: #1fab89;
+}
+.si{
+  margin: 20px 10px;
+  color: #1fab89;
+  font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 900px){
+  .navbar-nav{
+    position: absolute;
+    right: 8%;
+  }
+}
